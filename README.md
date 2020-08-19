@@ -1,25 +1,25 @@
 # unbox-desafio
 
-## Project setup
+## Instalar as dependências
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Inicializar o servidor
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Testes unitários
+
 ```
-yarn build
+yarn run test:unit
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Testes de integração
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# unbox-desafio
+```
+npx cypress run ou yarn run test:e2e
+```

@@ -62,7 +62,7 @@
             </v-container>
           </v-card-text>
           <v-divider class="mx-4"></v-divider>
-          <v-card-title class="justify-center">Residentes</v-card-title>
+          <v-card-title id="title-residentes" class="justify-center">Residentes</v-card-title>
           <ResidentesList v-bind:propsResidentes="planeta.residents" />
           <v-divider class="mx-4"></v-divider>
           <v-card-actions>
