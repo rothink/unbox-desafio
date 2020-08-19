@@ -2,9 +2,9 @@
   <v-container>
     <v-row class="text-center">
       <v-col cols="12">
+        <h2 id="title" class="pt-7 pb-7">Planetas</h2>
         <v-skeleton-loader type="table" v-if="loading"></v-skeleton-loader>
         <div v-if="!loading">
-          <h2 id="title" class="pt-7 pb-7">Planetas</h2>
           <v-col cols="12" sm="23">
             <v-text-field
               v-model="search"
