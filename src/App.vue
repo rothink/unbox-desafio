@@ -12,7 +12,11 @@
         />
       </div>
       <v-spacer></v-spacer>
-      <v-btn href="https://github.com/rothink" target="_blank" text>
+      <v-btn
+        href="https://github.com/rothink/unbox-desafio"
+        target="_blank"
+        text
+      >
         <span class="mr-2">Repo</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
